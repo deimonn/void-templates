@@ -1,0 +1,20 @@
+# Template file for 'dotnet'
+pkgname=dotnet
+version=8.0.301
+revision=1
+archs=x86_64
+depends="libgcc mit-krb5-libs icu-libs libssl1.1 libstdc++"
+short_desc="Latest microsoft .NET SDK and runtime"
+maintainer="deimonn <deimonn@outlook.com>"
+license="MIT"
+homepage="https://dotnet.microsoft.com/en-us/"
+distfiles="https://download.visualstudio.microsoft.com/download/pr/86497c4f-3dc8-4ee7-9f6a-9e0464059427/293d074c28bbfd9410f4db8e021fa290/dotnet-sdk-8.0.301-linux-x64.tar.gz"
+checksum=d237cf0e8865f51eb9634df32a8bcfb1dd95dac95c0d16b5d599df867ab16c27
+nostrip=yes
+
+do_install() {
+    vmkdir /opt/dotnet
+    vcopy "*" /opt/dotnet
+    vmkdir /etc/profile.d
+    vcopy "${FILESDIR}/profile.d/dotnet.sh" /etc/profile.d
+}

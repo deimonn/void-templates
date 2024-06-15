@@ -1,0 +1,19 @@
+# Template file for 'OpenTabletDriver'
+pkgname=OpenTabletDriver
+version=0.6.4.0
+revision=1
+archs=x86_64
+depends="dotnet6 libX11 libXrandr libevdev gtk+3"
+short_desc="Cross-platform, user-mode tablet driver"
+maintainer="deimonn <deimonn@outlook.com>"
+license="LGPL-3.0-only"
+homepage="https://github.com/OpenTabletDriver/OpenTabletDriver"
+distfiles="https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v${version}/OpenTabletDriver.deb"
+checksum=42a1ed184ec824e80edb9fbdc0aa949bf83ccdbe0377ed15bb19a88193927814
+nostrip=yes
+
+do_install() {
+    vcopy bin /usr
+    vcopy lib /usr
+    vcopy share /usr
+}
