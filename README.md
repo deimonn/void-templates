@@ -60,31 +60,3 @@ Includes *clapper-devel* as a subpackage.
 *Status*: PR open for 3.5.2, not merged yet.
 
 The version in this repository is 4.4.0, which comprises various changes, the addition of a tray icon, and the `keymapperctl` program.
-
-### .NET
-
-Void Linux does not ship `dotnet` yet, and although Microsoft's install script works, it misses all of the advantages of installing it via package manager.
-
-Thus here I provide templates to install `dotnet` via XBPS, as well as templates for some packages depending on it.
-
-All of these download and install through binary blobs.
-
-#### dotnet 8.0.301
-
-Ships the latest .NET SDK and runtime.
-
-#### dotnet7 7.0.410
-
-Ships the .NET 7.0 SDK and runtime.
-
-#### dotnet6 6.0.423
-
-Ships the .NET 6.0 SDK and runtime.
-
-#### dotnet5 5.0.408
-
-Ships the .NET 5.0 SDK and runtime.
-
-#### [OpenTabletDriver](https://github.com/OpenTabletDriver/OpenTabletDriver) 0.6.4.0
-
-See [this page](https://github.com/deimonn/void-guides/blob/master/3.%20Extra%20Software/Installing%20OpenTabletDriver.md) for information on how to use this.
