@@ -1,8 +1,8 @@
 # Deimonn's Void Templates
 
-This repository holds all of my Void Linux package templates. Some of these have yet to be merged into the official repositories, others are still work-in-progress, and others are simply not fit to be official for some reason or another.
+This repository holds all of my Void Linux package templates, primarily for my own convenience - but perhaps for yours as well.
 
-I still make all of them available here for my (and perhaps your) convenience.
+These are unofficial and not currently found in the [void-packages](https://github.com/void-linux/void-packages) repo.
 
 ## Usage
 
