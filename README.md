@@ -45,18 +45,14 @@ I still make all of them available here for my (and perhaps your) convenience.
 
 ## Packages
 
-### For merge
+#### [clapper](https://github.com/Rafostar/clapper) 0.6.1
 
-These packages are meant to be included into the official void repositories if accepted.
+Provides the Clapper desktop application as well as `clappersink`. Includes *clapper-devel* as a subpackage.
 
-#### [clapper](https://github.com/Rafostar/clapper) 0.6.0
+If you get errors about missing decoders, see [this page](https://github.com/deimonn/void-guides/blob/master/4.%20Notes%20%26%20Troubleshooting/Missing%20video%20decoders.md).
 
-*Status*: PR open, not merged yet.
+#### [keymapper](https://github.com/houmain/keymapper) 4.8.2
 
-Includes *clapper-devel* as a subpackage.
+Provides `keymapper`, `keymapperd` and `keymapperctl`.
 
-#### [keymapper](https://github.com/houmain/keymapper) 4.4.0
-
-*Status*: PR open for 3.5.2, not merged yet.
-
-The version in this repository is 4.4.0, which comprises various changes, the addition of a tray icon, and the `keymapperctl` program.
+See [this page](https://github.com/deimonn/void-guides/blob/master/3.%20Extra%20Software/Key%20remapping%20with%20keymapper.md) for information on how to use keymapper on Void Linux.
