@@ -49,10 +49,10 @@ These are unofficial and not currently found in the [void-packages](https://gith
 
 Provides the Clapper desktop application as well as `clappersink`. Includes *clapper-devel* as a subpackage.
 
-If you get errors about missing decoders, see [this page](https://github.com/deimonn/void-guides/blob/master/4.%20Notes%20%26%20Troubleshooting/Missing%20video%20decoders.md).
+If you get errors about missing decoders, see [this page](https://deimonn.dev/view?r=void-guides&f=4.%20Notes%20%26%20Troubleshooting/Missing%20video%20decoders.md).
 
 #### [keymapper](https://github.com/houmain/keymapper) 4.8.2
 
 Provides `keymapper`, `keymapperd` and `keymapperctl`.
 
-See [this page](https://github.com/deimonn/void-guides/blob/master/3.%20Extra%20Software/Key%20remapping%20with%20keymapper.md) for information on how to use keymapper on Void Linux.
+See [this page](https://deimonn.dev/view?r=void-guides&f=3.%20Extra%20Software/Key%20remapping%20with%20keymapper.md) for information on how to use keymapper on Void Linux.
