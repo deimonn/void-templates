@@ -1,6 +1,6 @@
 # Template file for 'keymapper'
 pkgname=keymapper
-version=4.8.2
+version=4.9.1
 revision=1
 build_style=cmake
 configure_args="-DVERSION=${version}"
@@ -12,7 +12,7 @@ license="GPL-3.0-only"
 homepage="https://github.com/houmain/keymapper"
 changelog="https://raw.githubusercontent.com/houmain/keymapper/main/CHANGELOG.md"
 distfiles="https://github.com/houmain/keymapper/archive/refs/tags/${version}.tar.gz"
-checksum=3726e8a973ff9ff30ffad3c0e5f3545cc22f5b7d87ca0bdfe8434fee6da89d96
+checksum=44d2180348e518b6529adb12730259ecb1ea776b9a29eff6d7eb10844cbf226f
 
 post_install() {
     vsv keymapperd
