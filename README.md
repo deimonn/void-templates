@@ -45,13 +45,13 @@ These are unofficial and not currently found in the [void-packages](https://gith
 
 ## Packages
 
-#### [clapper](https://github.com/Rafostar/clapper) 0.6.1
+#### [clapper](https://github.com/Rafostar/clapper) 0.8.0
 
 Provides the Clapper desktop application as well as `clappersink`. Includes *clapper-devel* as a subpackage.
 
 If you get errors about missing decoders, see [this page](https://deimonn.dev/view?r=void-guides&f=4.%20Notes%20%26%20Troubleshooting/Missing%20video%20decoders.md).
 
-#### [keymapper](https://github.com/houmain/keymapper) 4.9.1
+#### [keymapper](https://github.com/houmain/keymapper) 4.11.0
 
 Provides `keymapper`, `keymapperd` and `keymapperctl`.
 
