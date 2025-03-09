@@ -1,0 +1,22 @@
+# Template file for 'wallpaper-engine-kde-plugin'
+pkgname=wallpaper-engine-kde-plugin
+version=0.5.4+20231104
+_commit=ed58dd8b920dbb2bf0859ab64e0b5939b8a32a0e
+revision=1
+build_style=cmake
+configure_args="-DUSE_PLASMAPKG=OFF"
+hostmakedepends="pkg-config extra-cmake-modules cmake git"
+makedepends="plasma-framework qt6-declarative qt6-websockets qt6-webchannel plasma-workspace-devel mpv-devel liblz4-devel Vulkan-Headers"
+depends="python3-websockets gst-libav gstreamer-vaapi gstreamer1-pipewire gst-plugins-bad1 gst-plugins-base1 gst-plugins-good1 gst-plugins-ugly1"
+short_desc="KDE wallpaper plugin integrating wallpaper engine"
+maintainer="deimonn <deimonn@outlook.com>"
+license="GPL-2.0-only"
+homepage="https://github.com/catsout/wallpaper-engine-kde-plugin"
+
+do_fetch() {
+    rm -rf ${wrksrc}
+    git clone https://github.com/catsout/wallpaper-engine-kde-plugin ${wrksrc}
+    cd ${wrksrc}
+    git submodule update --init --force --recursive
+    git checkout ${_commit}
+}

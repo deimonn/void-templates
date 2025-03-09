@@ -56,3 +56,9 @@ If you get errors about missing decoders, see [this page](https://deimonn.dev/vi
 Provides `keymapper`, `keymapperd` and `keymapperctl`.
 
 See [this page](https://deimonn.dev/view?r=void-guides&f=3.%20Extra%20Software/Key%20remapping%20with%20keymapper.md) for information on how to use keymapper on Void Linux.
+
+#### [wallpaper-engine-kde-plugin](https://github.com/catsout/wallpaper-engine-kde-plugin) 0.5.4+20231104
+
+Provides the "Wallpaper Engine for Kde" KDE wallpaper plugin.
+
+See [this page](https://deimonn.dev/view?r=void-guides&t=master&f=3.%2520Extra%2520Software/Getting%2520animated%2520wallpapers.md) for instructions on how to use this package.
