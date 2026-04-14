@@ -1,8 +1,9 @@
 # Deimonn's Void Templates
 
-This repository holds all of my Void Linux package templates, primarily for my own convenience - but perhaps for yours as well.
-
-These are unofficial and not currently found in the [void-packages](https://github.com/void-linux/void-packages) repo.
+> [!WARNING]  
+> This repository has been unmaintained for a while now and, as of 14th of April 2026, I'm formally deprecating it to soon turn it into a public archive.
+>
+> I'll be trying to push [keymapper](https://github.com/houmain/keymapper) into the official repo. The [wallpaper-engine-kde-plugin](https://github.com/catsout/wallpaper-engine-kde-plugin) template is being abandoned; build the plugin from source instead.
 
 ## Usage
 
