@@ -1,9 +1,9 @@
 # Deimonn's Void Templates
 
 > [!WARNING]  
-> This repository has been unmaintained for a while now and, as of 14th of April 2026, I'm formally deprecating it to soon turn it into a public archive.
+> This repository had been unmaintained for a while and, as of the 7th of May 2026, its been converted into a public archive.
 >
-> I'll be trying to push [keymapper](https://github.com/houmain/keymapper) into the official repo. The [wallpaper-engine-kde-plugin](https://github.com/catsout/wallpaper-engine-kde-plugin) template is being abandoned; build the plugin from source instead.
+> The [keymapper](https://github.com/houmain/keymapper) package is now available on the official repo. The [wallpaper-engine-kde-plugin](https://github.com/catsout/wallpaper-engine-kde-plugin) template has been abandoned; build the plugin from source instead.
 
 ## Usage
 
